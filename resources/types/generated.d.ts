@@ -1,7 +1,5 @@
 declare namespace App.Http.Controllers {
-    export type Language = {
-        name: string;
-    };
+    export type Language = 'en' | 'nl' | 'fr' | 'it';
     export type TestTypescript = {
         string: string;
         int: number;

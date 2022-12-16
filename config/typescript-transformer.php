@@ -26,6 +26,7 @@ return [
      */
 
     'transformers' => [
+        \App\EnumTransformer::class,
         Spatie\LaravelTypeScriptTransformer\Transformers\SpatieStateTransformer::class,
         Spatie\TypeScriptTransformer\Transformers\SpatieEnumTransformer::class,
         Spatie\TypeScriptTransformer\Transformers\DtoTransformer::class,
