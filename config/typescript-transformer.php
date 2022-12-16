@@ -17,6 +17,7 @@ return [
      */
 
     'collectors' => [
+        \App\TestCollector::class,
         Spatie\TypeScriptTransformer\Collectors\DefaultCollector::class,
     ],
 

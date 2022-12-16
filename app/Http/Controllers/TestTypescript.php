@@ -3,8 +3,7 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-/** @typescript */
-final class TestTypescript
+final class TestTypescript extends Test
 {
     public readonly string $string;
     public readonly int $int;
