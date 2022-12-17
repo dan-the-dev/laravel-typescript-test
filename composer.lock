@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dan-the-dev/laravel-typescript-transformer-api.git",
-                "reference": "71e496176b3b434cf5942cab3c36826193f2da40"
+                "reference": "b66b8b09ad19aa385ab5e6fbcee169c7475cdce8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dan-the-dev/laravel-typescript-transformer-api/zipball/71e496176b3b434cf5942cab3c36826193f2da40",
-                "reference": "71e496176b3b434cf5942cab3c36826193f2da40",
+                "url": "https://api.github.com/repos/dan-the-dev/laravel-typescript-transformer-api/zipball/b66b8b09ad19aa385ab5e6fbcee169c7475cdce8",
+                "reference": "b66b8b09ad19aa385ab5e6fbcee169c7475cdce8",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
                 "issues": "https://github.com/dan-the-dev/laravel-typescript-transformer-api/issues",
                 "source": "https://github.com/dan-the-dev/laravel-typescript-transformer-api/tree/master"
             },
-            "time": "2022-12-17T19:13:17+00:00"
+            "time": "2022-12-17T19:29:26+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
