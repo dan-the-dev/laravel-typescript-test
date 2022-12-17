@@ -17,7 +17,7 @@ return [
      */
 
     'collectors' => [
-        \App\TestCollector::class,
+        Danthedev\LaravelTypescriptTransformerApi\Collectors\RequestCollector::class,
         Spatie\TypeScriptTransformer\Collectors\DefaultCollector::class,
     ],
 
@@ -27,8 +27,9 @@ return [
      */
 
     'transformers' => [
-        Spatie\TypeScriptTransformer\Transformers\EnumTransformer::class,
+        Danthedev\LaravelTypescriptTransformerApi\Transformers\RequestTransformer::class,
         Spatie\LaravelTypeScriptTransformer\Transformers\SpatieStateTransformer::class,
+        Spatie\TypeScriptTransformer\Transformers\EnumTransformer::class,
         Spatie\TypeScriptTransformer\Transformers\SpatieEnumTransformer::class,
         Spatie\TypeScriptTransformer\Transformers\DtoTransformer::class,
     ],
@@ -66,7 +67,7 @@ return [
      * The generated TypeScript will not be formatted when no formatter was set.
      */
 
-    'formatter' => null,
+    'formatter' => Spatie\TypeScriptTransformer\Formatters\PrettierFormatter::class,
 
     /*
      * Enums can be transformed into types or native TypeScript enums, by default

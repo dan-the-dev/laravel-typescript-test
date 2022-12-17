@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "605507f7a41a19ea20d33f4fbd82244b",
+    "content-hash": "08124d184389b1bf148cf8c2203e9009",
     "packages": [
         {
             "name": "brick/math",
@@ -61,6 +61,53 @@
                 }
             ],
             "time": "2022-08-10T22:54:19+00:00"
+        },
+        {
+            "name": "danthedev/laravel-typescript-transformer-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dan-the-dev/laravel-typescript-transformer-api.git",
+                "reference": "92594704120bcace53e38bcbdbb116c974056c16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dan-the-dev/laravel-typescript-transformer-api/zipball/92594704120bcace53e38bcbdbb116c974056c16",
+                "reference": "92594704120bcace53e38bcbdbb116c974056c16",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^9.0",
+                "php": "^8.1",
+                "spatie/laravel-typescript-transformer": "^2.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.9",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Danthedev\\LaravelTypescriptTransformerApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dan-the-dev",
+                    "email": "daniele.scillia@gmail.com"
+                }
+            ],
+            "description": "Extension of `spatie/laravel-typescript-transformer` with improvements to work with API Requests and Responses",
+            "support": {
+                "issues": "https://github.com/dan-the-dev/laravel-typescript-transformer-api/issues",
+                "source": "https://github.com/dan-the-dev/laravel-typescript-transformer-api/tree/master"
+            },
+            "time": "2022-12-17T18:48:00+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -8224,7 +8271,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "danthedev/laravel-typescript-transformer-api": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
