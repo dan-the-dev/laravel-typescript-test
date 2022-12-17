@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Controllers\Test;
 
 use App\Custom\Language;
-use Illuminate\Http\Request;
+use Illuminate\Foundation\Http\FormRequest;
 
-class TestRequest extends Request
+class TestFormRequest extends FormRequest
 {
     public readonly string $string;
     public readonly int $int;

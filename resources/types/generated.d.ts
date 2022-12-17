@@ -4,7 +4,7 @@ declare namespace App.Custom {
         value: string;
     };
 }
-declare namespace App.Http.Requests {
+declare namespace App.Http.Controllers.Test {
     export type TestFormRequest = {
         string: string;
         int: number;
@@ -16,5 +16,14 @@ declare namespace App.Http.Requests {
         int: number;
         float: number;
         language: App.Custom.Language;
+    };
+    export type TestResponse = {
+        string: string;
+        int: number;
+        float: number;
+        language: App.Custom.Language;
+        headers: any;
+        original: any;
+        exception: any | null;
     };
 }

@@ -18,6 +18,7 @@ return [
 
     'collectors' => [
         Danthedev\LaravelTypescriptTransformerApi\Collectors\RequestCollector::class,
+        Danthedev\LaravelTypescriptTransformerApi\Collectors\ResponseCollector::class,
         Spatie\TypeScriptTransformer\Collectors\DefaultCollector::class,
     ],
 
@@ -28,6 +29,7 @@ return [
 
     'transformers' => [
         Danthedev\LaravelTypescriptTransformerApi\Transformers\RequestTransformer::class,
+        Danthedev\LaravelTypescriptTransformerApi\Transformers\ResponseTransformer::class,
         Spatie\LaravelTypeScriptTransformer\Transformers\SpatieStateTransformer::class,
         Spatie\TypeScriptTransformer\Transformers\EnumTransformer::class,
         Spatie\TypeScriptTransformer\Transformers\SpatieEnumTransformer::class,
