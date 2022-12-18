@@ -1,0 +1,7 @@
+{
+  "name": "@danthedevnpm/laravel-typescript-test-types",
+  "version": "1.0.1",
+  "description": "Typescript conversion of Request and Response APIs from Laravel test app",
+  "main": "generated.d.ts",
+  "license": "ISC"
+}
